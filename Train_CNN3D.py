@@ -3,21 +3,14 @@
 """
 This script reads a train data set specified in a configuration file and trains a CNN.
 
+Example to run the code:
+
+nohup python3 Train_CNN3D.py ./config/config_NoNorm_5x2x1.yml &
+
+
 """
 
-#nohup python3 Train_CNN3D.py 3dCNN_2Conv_2x2x2_2Dense_batch512_20epoES5 ./config/FF100/config_Train2dCNN_MuonID_FF100.yml &
-#nohup python3 Train_CNN3D.py 3dCNN_2Conv_2x2x2_2Dense_batch512_20epoES5 &
-#nohup python3 Train_CNN3D.py 3dCNN_2Conv_1x1x1_2Dense_batch128_20epoES5 &
-#nohup python3 Train_CNN3D.py 3dCNN_LogMinMaxScaler_2Conv_2Dense_batch128_150epoES5 &
-#nohup python3 Train_CNN3D.py 3dCNN_LogMinMaxScaler_Sigmoid_2Conv_2Dense_batch512_N20000 &
-#nohup python3 Train_CNN3D.py 3dCNN_NoNorm_Sigmoid_2Conv_2Dense_batch512_N20000 &
 
-#nohup python3 Train_CNN3D.py /home/cosmo/borjasg/projects/DataChallenges/MODE_2022/config/config_NoNorm_Simple.yml &
-#nohup python3 Train_CNN3D.py /home/cosmo/borjasg/projects/DataChallenges/MODE_2022/config/config_NoNorm_Simple_complete.yml &
-#nohup python3 Train_CNN3D.py ./config/config_NoNorm_5x2x1.yml &
-#nohup python3 Train_CNN3D.py ./config/config_Norm_5x2x1.yml &
-#nohup python3 Train_CNN3D.py ./config/config_Norm_Simple_complete.yml &
-#nohup python3 Train_CNN3D.py ./config/config_NoNorm_5x2x1_LSTM.yml &
 
 
 
