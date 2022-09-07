@@ -1,0 +1,23 @@
+global:
+  Normalisation: "NoNorm"
+  Nevents: 100000
+  Train_prop: 0.8
+  CNN_dim: "3d"
+storage:
+  dataPath_datasets: '/lstore/lattes/borjasg/projects/DataChallenge_MODE2022/'
+  dataPath_imgs: '/home/cosmo/borjasg/projects/DataChallenges/MODE_2022/imgs/'
+  dataPath_models: '/home/cosmo/borjasg/projects/DataChallenges/MODE_2022/models/'
+experiment:
+  train: 'train'
+  test: 'test'
+ML_Models:
+  3dCNN_out_name: '3dCNN_1Conv_5x2x1_1Dense'
+  Trained_model: 'keras-3dCNN_1Conv_5x2x1_1Dense_NoNorm_batch128_50epoES5_N100000'
+FE:
+  UD: 'No'
+  OS: 'Yes'
+  OS_prop: 0.50
+  Nepochs: 50
+  EarlyStopping: 5
+  batch: 128
+
